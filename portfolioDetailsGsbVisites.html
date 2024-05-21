@@ -14,7 +14,7 @@
   <link href="assets/img/portfolio.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -27,13 +27,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: iPortfolio
-  * Updated: Jul 27 2023 with Bootstrap v5.3.1
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -48,7 +41,7 @@
       <div class="profile">
         <img src="assets/img/profile-img.jpeg" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Anas Benmsatef</a></h1>
-        <div class="social-links mt-3 text-center"> 
+        <div class="social-links mt-3 text-center">
           <a href="https://github.com/bloodysh" class="GitHub"><i class="bx bxl-github"></i></a>
           <a href="https://fr.linkedin.com/in/anas-benmsatef-86895a194" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         </div>
@@ -88,28 +81,43 @@
       <div class="container">
 
         <div class="row gy-4">
-
-          <!-- IFrame 1 -->
-          <div class="col-lg-6">
-            <iframe src="https://awoc.zet74.fr/" width="100%" height="400" frameborder="0" scrolling="auto"></iframe>
-          </div>
-
-
-        </div>
-
-        <div class="row gy-4">
           <div class="col-lg-8">
             <div class="portfolio-description">
               <h2>Détails du projet</h2>
               
               <div class="project-overview">
-                <h3>Présentation de Awok</h3>
+                <h3>Présentation de GSB Visites</h3>
                 <p>
-                  Awok est une plateforme "social network" qui permet aux étudiants de publier une image par semaine.
-                  Ce projet sert à créer du lien via un réseau non-officiel du lycée entre les élèves en leur permettant de poster d'eux-mêmes et d'interagir avec les posts des autres étudiants via un système de like ou de commentaire.
+                  Le projet GSB visite consistait à créer une application Android pour les visiteurs médicaux leur permettant de gérer leurs différentes visites. 
+                  Nous trouvions sur cette application un système permettant de créer des visites, faire des rapports sur celles-ci, retrouver ses anciennes visites, 
+                  voir des bilans de celles-ci avec le professionnel de santé visité, le but de cette visite, et si un échantillon a été laissé.
                 </p>
               </div>
               
+              <div class="project-creation">
+                <h3>Création</h3>
+                <p>
+                  Ce projet a été créé en différentes parties. Tout d'abord, nous avons dû créer la base de données correspondant au diagramme de classe que nous avions dressé auparavant. 
+                  La base de données a été créée sur MongoDB Atlas, une base de données NoSQL, où les tables ne sont pas en relation. 
+                  Nous avons ensuite dû créer une API REST en JavaScript qui serait accessible par notre application Android. 
+                  Cette application a été développée en Java avec AndroidStudio pour la rendre utilisable par les visiteurs.
+                </p>
+              </div>
+              
+              <div class="project-learning">
+                <h3>Choses Apprises</h3>
+                <p>
+                  <strong>Apprentissage de nouvelles notions:</strong> Avant ce projet, je n'avais jamais créé ni utilisé d'API REST. 
+                  J'ai donc dû apprendre à créer une API REST en JavaScript. J'ai aussi dû apprendre à utiliser une base de données NoSQL avec MongoDB Atlas. 
+                  J'ai appris à utiliser cette base de données, à la créer et à l'utiliser dans un projet.
+                </p>
+                <p>
+                  <strong>Comprendre de nouveaux langages:</strong> Ce projet a nécessité l'utilisation de nouveaux langages. 
+                  J'ai donc dû apprendre à utiliser le langage JavaScript pour la création de l'API REST. 
+                  J'ai aussi dû apprendre à utiliser le langage Java pour la création de l'application Android.
+                </p>
+              </div>
+
               <div class="project-team">
                 <h3>Équipe et méthodologie</h3>
                 <p>
@@ -136,11 +144,9 @@
                 </p>
               </div>
               
-            
             </div>
           </div>
         </div>
-        
 
       </div>
     </section><!-- End Portfolio Details Section -->
@@ -154,8 +160,23 @@
         &copy; Copyright <strong><span>iPortfolio</span></strong>
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-        Designed by <a href="https
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
